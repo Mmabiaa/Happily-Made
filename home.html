@@ -1,207 +1,148 @@
-
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewpoint" content="width=device-width, initial-scale=1.0">
-        <title>Happily Made</title>
-        <link rel="stylesheet" href="styles.css">
-        <style>
-            body{
-                font-family: Arial, Helvetica, sans-serif;
-                margin: 0;
-                padding: 0;
-                background-color:#666666;
-                color: white;
-
-            }
-            header{
-                background-color: aqua;
-                padding: 20px;
-                box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-            }
-
-            header h1{
-
-                margin: 0px;
-                color: #333333;
-                font-size: 32px;
-            }
-            nav u1{
-                list-style-type: none ;
-                padding: 0;
-                margin:0;
-            }
-            nav u1 li{
-                display: inline;
-                margin-right: 20px;
-            }
-            nav u1 li a{
-                text-decoration: none;
-                color:#333333;
-                font-size: 18px;
-            }
-            main{
-                padding:20px;
-            }
-            section{
-                margin-bottom: 30px;
-            }
-            h2{
-                color: #333333;
-                font-size:24px;
-            }
-            p{
-                color:#f2faff;
-                font: size 16px;
-
-            }
-            footer{
-                background-color: #62e7bf;
-                color: black;
-                text-align: center;
-                padding: 10px;
-                position:fixed;
-                bottom: 0;
-                width: 100px; 
-            }
-            footer p{
-                margin:0;
-                font: size 14px;
-            }
-        </style>
-    </head>
-    <body>
-        <header>
-            <h1>Happily Made</h1>
-            <nav>
-                <ul>
-                    <li><a href="home.html" 
-                        target="_blank"
-                        title="Home Page For Happily Made"   
-                        style="color: rgb(240, 78, 49);" >Home </a></li>
-                    <li><a href="about.html" 
-                        target="blank"
-                        title="Know more Happily Made"
-                        style="color: rgb(39, 223, 54);">About</a></li>
-                    <li><a href="services.html"
-                        target="_blank"
-                        title="Find more about services"
-                         style="color: rgb(161, 159, 202);">Service</a></li>
-                    <li><a href="portforlio.html"
-                        target="_blank"
-                        title="View more photos from previous cliesnts"
-                         style="color: rgb(151, 151, 151);">Portfolio</a></li>
-                    <li><a href="contact.html"
-                        target="_blank"
-                        title="How to contact Us"
-                         style="color: rgb(56, 31, 97);">contact</a></li>
-                </ul>
-            </nav>
-        </header>
-        <main>
-            <section>
-                <h2 style="color: black;">
-                    <u>Welcome to Happily Made</u>
-                </h2>
-                <pre style="background-color: rgb(0, 0, 0); color: #f0d541;">
-                    Discover beatiful handmade creations that brings joy to
-                    every occasion
-                </pre>
-            </section>
-            <section>
-                <h2 style="color: black;">
-                    <u>Feature Services</u>
-                </h2>
-                <u1>
-                    <li style="font-size: 32px;">Custom Tailoring</li>
-                    <img src="PFKB0802.JPG" style="height: 600px;">    
-                    <p style="color: #ffffff;"> dresses made by <b>Happily Made</b></p>
-                    </pre>
-                    <li style="font-size: 32px;">Wedding Dress and styling</li>
-                    <img src="PNUT4373.JPG" style="height: 600px;">
-                    <li style="font-size: 32px;">Embroidery Design</li>
-                    <img src="IUUM6089.JPG" style="height: 600px;">
-                    <li style="font-size: 32px;">Name your Style</li>
-                    <img src="UMZL7927.JPG" style="height: 600px;">
-                    <li><a href="portforlio.html" 
-                        target="_blank"
-                        title="View more at our Portfolio">...and more</a></li>
-                </u1>
-
-            </section>
-            <section><p>Visit our other pages to know mare about us</p></section>
-            <section>
-                <h2>Testiomonials</h2>
-                <p> "Happily Made transformed my style of dressing from amateur to the best"- Alice</p>
-                <p> "Happily Made had got magical hands that design stunning outfits for every occassion"- Serwaa</p>
-                <p> "Are you in need of a nice outfit for an occasion, Happily Made will happy do the magic" - Auntie Lucy</p>
-                
-            </section>
-        </main>
-
-        <footer style="color: black;">
-            <p style="color: black;">&copy; 2024 Happily Made</p>
-        </footer>
-        <p>
-            <li><a href="home.html" 
-            target="_blank"
-            title="Home Page For Happily Made"   
-            style="color: rgb(255, 38, 0);" >Home </a></li>
-        <li><a href="about.html" 
-            target="blank"
-            title="Know more Happily Made"
-            style="color: rgb(39, 223, 54);">About</a></li>
-        <li><a href="services.html"
-            target="_blank"
-            title="Find more about services"
-             style="color: rgb(203, 201, 250);">Service</a></li>
-        <li><a href="portforlio.html"
-            target="_blank"
-            title="View more photos from previous cliesnts"
-             style="color: rgb(216, 240, 6);">Portfolio</a></li>
-        <li><a href="contact.html"
-            target="_blank"
-            title="How to contact Us"
-             style="color: rgb(64, 243, 228);">contact</a></li>
-        </p>
-    <!-- Code injected by live-server -->
-<script>
-	// <![CDATA[  <-- For SVG support
-	if ('WebSocket' in window) {
-		(function () {
-			function refreshCSS() {
-				var sheets = [].slice.call(document.getElementsByTagName("link"));
-				var head = document.getElementsByTagName("head")[0];
-				for (var i = 0; i < sheets.length; ++i) {
-					var elem = sheets[i];
-					var parent = elem.parentElement || head;
-					parent.removeChild(elem);
-					var rel = elem.rel;
-					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
-						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
-						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
-					}
-					parent.appendChild(elem);
-				}
-			}
-			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
-			var address = protocol + window.location.host + window.location.pathname + '/ws';
-			var socket = new WebSocket(address);
-			socket.onmessage = function (msg) {
-				if (msg.data == 'reload') window.location.reload();
-				else if (msg.data == 'refreshcss') refreshCSS();
-			};
-			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
-				console.log('Live reload enabled.');
-				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
-			}
-		})();
-	}
-	else {
-		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	}
-	// ]]>
-</script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happily Made</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-family: 'Playfair Display', serif;
+            font-size: 36px;
+            color: #62e7bf;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: #555;
+            font-size: 18px;
+            transition: color 0.3s ease;
+        }
+        nav ul li a:hover {
+            color: #62e7bf;
+        }
+        main {
+            padding: 20px;
+        }
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
+            font-size: 28px;
+            margin-top: 0;
+            color: #444;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333333;
+            color: #ffffff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        footer p {
+            margin: 0;
+            font-size: 14px;
+        }
+        .image-container {
+            position: relative;
+            overflow: hidden;
+            margin-bottom: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+            transition: box-shadow 0.3s ease;
+        }
+        .image-container:hover {
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+        .image-container img {
+            display: block;
+            width: 100%;
+            transition: transform 0.5s ease;
+        }
+        .image-container:hover img {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Happily Made</h1>
+    <nav>
+        <ul>
+            <li><a href="home.html" title="Home Page For Happily Made">Home</a></li>
+            <li><a href="about.html" title="Know more about Happily Made">About</a></li>
+            <li><a href="services.html" title="Find more about services">Services</a></li>
+            <li><a href="portfolio.html" title="View more photos from previous clients">Portfolio</a></li>
+            <li><a href="contact.html" title="How to contact Us">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+<main>
+    <section>
+        <h2>Welcome to Happily Made</h2>
+        <p>Discover beautiful handmade creations that bring joy to every occasion.</p>
+    </section>
+    <section>
+        <h2>Featured Services</h2>
+        <ul>
+            <li class="image-container">
+                <h3>Custom Tailoring</h3>
+                <img src="PFKB0802.JPG" alt="Custom Tailoring">
+                <p>Dresses made by <strong>Happily Made</strong>.</p>
+            </li>
+            <li class="image-container">
+                <h3>Wedding Dress and Styling</h3>
+                <img src="PNUT4373.JPG" alt="Wedding Dress and Styling">
+            </li>
+            <li class="image-container">
+                <h3>Embroidery Design</h3>
+                <img src="IUUM6089.JPG" alt="Embroidery Design">
+            </li>
+            <li class="image-container">
+                <h3>Name Your Style</h3>
+                <img src="UMZL7927.JPG" alt="Name Your Style">
+            </li>
+            <li><a href="portfolio.html" title="View more at our Portfolio">...and more</a></li>
+        </ul>
+    </section>
+    <section>
+        <h2>Testimonials</h2>
+        <p>"Happily Made transformed my style of dressing from amateur to the best" - Alice</p>
+        <p>"Happily Made has magical hands that design stunning outfits for every occasion" - Serwaa</p>
+        <p>"Are you in need of a nice outfit for an occasion? Happily Made will happily do the magic" - Auntie Lucy</p>
+    </section>
+</main>
+<footer>
+    <p>&copy; 2024 Happily Made</p>
+</footer>
 </body>
 </html>
